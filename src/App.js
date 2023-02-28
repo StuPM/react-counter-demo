@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import CounterDisplay from "./components/CounterDisplay";
+import Header from "./components/header";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <>
+        <Header />
         <CounterDisplay></CounterDisplay>
-        <CounterDisplay></CounterDisplay>
-      </div>
+      </>
     );
   }
 }
